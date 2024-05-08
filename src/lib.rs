@@ -10,6 +10,8 @@ pub struct Test2 {
 }
 
 
+
+
 lazy_static! {
     static ref ARRAY: Mutex<Vec<u8>> = Mutex::new(vec![]);
 }
