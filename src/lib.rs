@@ -6,9 +6,9 @@ pub struct Test2 {
 
 }
 
-pub unsafe extern "C" fn tt() -> () {
-    println!("hello from test2")
-}
+// pub unsafe extern "C" fn tt() -> () {
+//     println!("hello from test2")
+// }
 
 #[cfg(test)]
 mod tests {
